@@ -209,52 +209,53 @@ Le domaine du jamais conçu, quant à lui, appartient à ce qui est lui est ext�
    
  
     // the following was adapted from this sample: https://hiev-heavy-ind.com/Sample_Code/Sample_Code.html#Day%20and%20Night%20Mode%20Setting
-    setup.settingTheme = function () { 
-        const enLang = document.querySelectorAll(&quot;.en&quot;); 
-        const frLang = document.querySelectorAll(&quot;.fr&quot;);
-        if (settings.Theme) {  
-            // Delay is required during initialization.  
-            setTimeout(function () { 
-                enLang.forEach(function(node) {
-                    node.classList.remove(&quot;selectedLang&quot;); 
-                });
-                frLang.forEach(function(node) {
-                    node.classList.add(&quot;selectedLang&quot;)
-                })
-            }, 20);  
-        } else {  
-            enLang.forEach(function(node) {
-                node.classList.remove(&quot;selectedLang&quot;); 
-            });
-        }  
-    };
 
-    $(document).on(&#39;:passagestart&#39;, function (ev) {
-        const enlang = document.querySelectorAll(&quot;.en&quot;); 
-        const frlang = document.querySelectorAll(&quot;.fr&quot;);
-        if (settings.Theme) {  
-            // Delay is required during initialization.  
-            setTimeout(function () { 
-                enlang.forEach(function(node) {
-                    node.classList.remove(&quot;selectedLang&quot;); 
-                });
-                frlang.forEach(function(node) {
-                    node.classList.add(&quot;selectedLang&quot;)
-                })
-            }, 20);  
-        } else {  
-            enlang.forEach(function(node) {
-                node.classList.remove(&quot;selectedLang&quot;); 
-            });
-        }  
-    });
+    // setup.settingTheme = function () { 
+    //     const enLang = document.querySelectorAll(&quot;.en&quot;); 
+    //     const frLang = document.querySelectorAll(&quot;.fr&quot;);
+    //     if (settings.Theme) {  
+    //         // Delay is required during initialization.  
+    //         setTimeout(function () { 
+    //             enLang.forEach(function(node) {
+    //                 node.classList.remove(&quot;selectedLang&quot;); 
+    //             });
+    //             frLang.forEach(function(node) {
+    //                 node.classList.add(&quot;selectedLang&quot;)
+    //             })
+    //         }, 20);  
+    //     } else {  
+    //         enLang.forEach(function(node) {
+    //             node.classList.remove(&quot;selectedLang&quot;); 
+    //         });
+    //     }  
+    // };
 
-    Setting.addToggle(&quot;Theme&quot;, {  
-        label  : &quot;Français:&quot;,  
-        default: false,  
-        onInit   : setup.settingTheme,  
-        onChange : setup.settingTheme  
-    });
+    // $(document).on(&#39;:passagestart&#39;, function (ev) {
+    //     const enlang = document.querySelectorAll(&quot;.en&quot;); 
+    //     const frlang = document.querySelectorAll(&quot;.fr&quot;);
+    //     if (settings.Theme) {  
+    //         // Delay is required during initialization.  
+    //         setTimeout(function () { 
+    //             enlang.forEach(function(node) {
+    //                 node.classList.remove(&quot;selectedLang&quot;); 
+    //             });
+    //             frlang.forEach(function(node) {
+    //                 node.classList.add(&quot;selectedLang&quot;)
+    //             })
+    //         }, 20);  
+    //     } else {  
+    //         enlang.forEach(function(node) {
+    //             node.classList.remove(&quot;selectedLang&quot;); 
+    //         });
+    //     }  
+    // });
+
+    // Setting.addToggle(&quot;Theme&quot;, {  
+    //     label  : &quot;Français:&quot;,  
+    //     default: false,  
+    //     onInit   : setup.settingTheme,  
+    //     onChange : setup.settingTheme  
+    // });
 
         
 &lt;&lt;/script&gt;&gt;</tw-passagedata><tw-passagedata pid="9" name="Ça commence à devenir slime" tags="" position="300,500" size="100,100">La terre, subrepticement, commença à excréter ses propres infamités. Elle qui, si gentille --bon à part les famines et les tremblements de terres et autres calamités bien sûr...-- elle qui si gentielle avait fait croire, jusque-là aux grands puissants qu&#39;elle était leur possession.
