@@ -20,7 +20,7 @@ jobs:
         with:
           repo: tmedwards/tweego
           chmod: 0775
-           - run tweego story -o dist/index.html
+      - run : tweego story -o dist/index.html
 
       - name: Deploy to Pages
         uses: peaceiris/actions-gh-pages@v3
