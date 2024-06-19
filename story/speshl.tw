@@ -1,6 +1,0 @@
-:: Speshl CSS [stylesheet]
-
-.speshl.invsible {
-     opacity: 0;
-}
-
