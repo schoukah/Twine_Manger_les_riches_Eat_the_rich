@@ -1,6 +1,3 @@
-/* Initial stylesheet for body and links taken from Adam Hammond's CSS
-Twine guide (https://www.adamhammond.com/twineguide/). Thank you Adam! */
-
 .passage-mais-de-les-manger {
     background-color: aquamarine;
     text-decoration: underline;
@@ -30,3 +27,6 @@ a:hover {
 /* #ui-bar {
     display: none;
 } */
+
+/* Initial stylesheet for body and links taken from Adam Hammond's CSS
+Twine guide (https://www.adamhammond.com/twineguide/). Thank you Adam! */
