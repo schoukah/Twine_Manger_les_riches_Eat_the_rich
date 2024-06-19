@@ -6,11 +6,11 @@ Twine guide (https://www.adamhammond.com/twineguide/). Thank you Adam! */
     text-decoration: underline;
 }
 
-.selectedLang {
+/* .selectedLang {
     color: black !important;;
-}
+} */
 
-html {
+body {
     background-color: white;
     color: darkgrey;
     font-family: Futura,Impact,Helvetica,sans-serif;
