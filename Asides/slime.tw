@@ -1,0 +1,56 @@
+:: Ça commence à devenir slime {"position":"300,500"}
+
+La terre, subrepticement, commença à excréter ses propres infamités. Elle qui, si gentille --bon à part les famines et les tremblements de terres et autres calamités bien sûr...-- elle qui si gentielle avait fait croire, jusque-là aux grands puissants qu'elle était leur possession.
+
+[[She started with her kernel|Depuis son noyau]]
+
+[[Elle commença depuis son noyau.|Depuis son noyau]]
+
+:: Depuis son noyau {"position":"500,500"}
+
+Donc, oui, depuis son noyau, la terre commença à s'échauffer. 
+
+Ça chauffe [[ça chauffe|ca chauffe]]! 
+
+Personne sur la surface, pas une petite créature, n'a l'idée d'attributer quelque irritation de la planète à ce qui produit soudain, profondément, subrepticement. Les volcans continuent de fumer, les autres sont encore éteints pourtant...
+
+<div id="test-test"></div>
+
+<<script>>
+    // Define the base URL and endpoint
+const baseURL = 'https://cat-fact.herokuapp.com';
+const endpoint = '/facts/random?animal_type=cat&amount=2';
+const divToChange = "test-test"
+
+// Combine the URL and endpoint
+const url = `${baseURL}${endpoint}`;
+
+// Make the GET request using Fetch API
+fetch(url)
+    .then(response => {
+        // Check if the response status is OK
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        // Parse the JSON from the response
+        return response.json();
+    })
+    .then(data => {
+        // Log the data to the console
+        console.log(data);
+        let factsHTML = '<ul>';
+        data.forEach(fact => {
+            factsHTML += `<li>${fact.text}</li>`;
+        });
+        factsHTML += '</ul>';
+
+        document.getElementById(divToChange).innerHTML = factsHTML
+    })
+    .catch(error => {
+        // Log any errors to the console
+        console.error('Error fetching data:', error);
+    });
+
+
+
+<</script>>

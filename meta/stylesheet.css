@@ -1,0 +1,32 @@
+/* Initial stylesheet for body and links taken from Adam Hammond's CSS
+Twine guide (https://www.adamhammond.com/twineguide/). Thank you Adam! */
+
+.passage-mais-de-les-manger {
+    background-color: aquamarine;
+    text-decoration: underline;
+}
+
+.selectedLang {
+    color: black !important;;
+}
+
+body {
+    background-color: white;
+    color: darkgrey;
+    font-family: Futura,Impact,Helvetica,sans-serif;
+    font-size: 125%;
+    /* margin-left: -10.5em; */
+}
+
+a {
+    color: red;
+}
+
+a:hover {
+    color: crimson;
+    text-decoration: underline;
+}
+
+#ui-bar {
+    /* display: none; */
+}
