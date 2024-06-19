@@ -10,7 +10,7 @@ Twine guide (https://www.adamhammond.com/twineguide/). Thank you Adam! */
     color: black !important;;
 }
 
-body {
+html {
     background-color: white;
     color: darkgrey;
     font-family: Futura,Impact,Helvetica,sans-serif;

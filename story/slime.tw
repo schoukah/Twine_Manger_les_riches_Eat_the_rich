@@ -16,7 +16,7 @@ Personne sur la surface, pas une petite créature, n'a l'idée d'attributer quel
 
 <div id="test-test"></div>
 
-<<script>>
+/* <<script>>
     // Define the base URL and endpoint
 const baseURL = 'https://cat-fact.herokuapp.com';
 const endpoint = '/facts/random?animal_type=cat&amount=2';
@@ -53,4 +53,4 @@ fetch(url)
 
 
 
-<</script>>
+<</script>> */
