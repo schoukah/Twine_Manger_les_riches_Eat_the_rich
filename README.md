@@ -149,8 +149,10 @@ après le premier passage alors:
 ## D'autres trucs *fancy* à envisager
 
 - Re-créer une animation CSS de [machine à écrire](https://css-tricks.com/typewriter-animation-that-handles-anything-you-throw-at-it/).
-- Explorer d'autres APIs publics en plus de ceux de [cat facts](https://github.com/alexwohlbruck/cat-facts)!
-- 
+- Explorer d'autres [APIs publics](https://github.com/public-apis/public-apis) en plus de ceux de [cat facts](https://github.com/alexwohlbruck/cat-facts)!
+- Explorer des [APIs peu documentés](https://jvns.ca/blog/2022/03/10/how-to-use-undocumented-web-apis/) (avec considération et respect bien
+  sûr!);
+- [ ] TODO : Créer un API.
 
 
 
