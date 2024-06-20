@@ -41,12 +41,28 @@ setup](https://blog.lazerwalker.com/azure,/game/dev/2020/01/16/a-modern-develope
 stories through
 continuous integration.
 
-I was soooo motivated 🔥💪🔥! Which explains the almost 8 hours over 2
-days it took to make this work!
+I was soooo motivated. I didn't give up 🔥💪🔥! Not through the cryptic
+error messages --especially the one whose best solution is
+to just restart the code editor...and which takes in retrospect an
+absurdly long time to figure out! 
+
+And that explains the almost 8 hours over 2
+days it took to make this work. 
 
 ### I had to update a few things
 
+I went though both of Emilia Lazer-Walker's tutorials I found: [this one
+on Dev.to](https://dev.to/lazerwalker/a-modern-developer-s-workflow-for-twine-4imp)
+and the one I linked to above. I also found much wisdom in the comments
+and am very grateful to Emilia Lazer-Walker as well as the commenters
+and countless contributors to forums I've roamed into to look up errors.
 
+With my gruff --but functional-- knowledge of node.js and npm, I
+managed to update dependencies. I now have this [GitHub action workflow](https://github.com/schoukah/Twine_Manger_les_riches_Eat_the_rich/blob/main/.github/workflows/build.yml)
+which --as of the last commit date you'll find-- still works.
+
+So here we are. Thanks again everyone \( ﾟヮﾟ)/
 
 # Oh my que ça a pris du temps à mettre en ligne ! 😮‍💨
 
+Version française à venir, promis! Désolée 🦐
