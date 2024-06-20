@@ -14,9 +14,11 @@ Donc, oui, depuis son noyau, la terre commença à s'échauffer.
 
 Personne sur la surface, pas une petite créature, n'a l'idée d'attributer quelque irritation de la planète à ce qui produit soudain, profondément, subrepticement. Les volcans continuent de fumer, les autres sont encore éteints pourtant...
 
+Et voici, en passant, deux faits aléatoires sur les chats:
+
 <div id="test-test"></div>
 
-/* <<script>>
+<<script>>
     // Define the base URL and endpoint
 const baseURL = 'https://cat-fact.herokuapp.com';
 const endpoint = '/facts/random?animal_type=cat&amount=2';
@@ -53,4 +55,4 @@ fetch(url)
 
 
 
-<</script>> */
+<</script>>
