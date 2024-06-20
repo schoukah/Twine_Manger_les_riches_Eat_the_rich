@@ -3,9 +3,9 @@
     text-decoration: underline;
 }
 
-/* .selectedLang {
+.selectedLang {
     color: black !important;;
-} */
+}
 
 body {
     background-color: white;
