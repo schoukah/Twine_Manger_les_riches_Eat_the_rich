@@ -6,4 +6,61 @@
 }
 
 :: StoryTitle
-Twee
+Eat the rich
+
+:: StoryInit [startup]
+
+<<script>>  
+    console.log("hello!");
+   
+ 
+    // the following was adapted from this sample: https://hiev-heavy-ind.com/Sample_Code/Sample_Code.html#Day%20and%20Night%20Mode%20Setting
+    setup.settingTheme = function () { 
+        const enLang = document.querySelectorAll(".en"); 
+        const frLang = document.querySelectorAll(".fr");
+        if (settings.Theme) {  
+            // Delay is required during initialization.  
+            setTimeout(function () { 
+                enLang.forEach(function(node) {
+                    node.classList.remove("selectedLang"); 
+                });
+                frLang.forEach(function(node) {
+                    node.classList.add("selectedLang")
+                })
+            }, 20);  
+        } else {  
+            enLang.forEach(function(node) {
+                node.classList.remove("selectedLang"); 
+            });
+        }  
+    };
+
+    $(document).on(':passagestart', function (ev) {
+        const enlang = document.querySelectorAll(".en"); 
+        const frlang = document.querySelectorAll(".fr");
+        if (settings.Theme) {  
+            // Delay is required during initialization.  
+            setTimeout(function () { 
+                enlang.forEach(function(node) {
+                    node.classList.remove("selectedLang"); 
+                });
+                frlang.forEach(function(node) {
+                    node.classList.add("selectedLang")
+                })
+            }, 20);  
+        } else {  
+            enlang.forEach(function(node) {
+                node.classList.remove("selectedLang"); 
+            });
+        }  
+    });
+
+    Setting.addToggle("Theme", {  
+        label  : "Français:",  
+        default: false,  
+        onInit   : setup.settingTheme,  
+        onChange : setup.settingTheme  
+    });
+
+        
+<</script>>
