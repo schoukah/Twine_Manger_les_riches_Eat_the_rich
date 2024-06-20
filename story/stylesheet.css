@@ -9,7 +9,12 @@
 
 body {
     background-color: white;
-    color: darkgrey;
+    /* 👇 12.78 score in contrast checker */
+    color: #333232; 
+    /* 👇 18.58 score in contrast checker */
+    /* color: #131313; */
+    /* 👇 2.35 score in contrast checker */
+    /* color: #a9a9a9; */
     font-family: Futura,Impact,Helvetica,sans-serif;
     font-size: 125%;
     /* margin-left: -10.5em; */
@@ -17,6 +22,7 @@ body {
 
 a {
     color: red;
+    text-decoration: underline;
 }
 
 a:hover {

@@ -5,7 +5,7 @@
 An evolving interactive [Twine](https://twinery[.org) story (using the
 [SugarCube story format](https://www.motoslave.net/sugarcube/2/) and
 [Tweego command line compiler](https://www.motoslave.net/tweego/docs/))
-about earth eating the rich. 
+about earth eating the ultra-rich. 
 
 Kindly find digressions, many thanks, and more or less technical details below.
 
@@ -69,8 +69,9 @@ which --as of the last commit date you'll find-- still works.
 
 So here we are. Thanks again everyone \\( ﾟヮﾟ)/
 
-# Oh my que ça a pris du temps à mettre en ligne ! 😮‍💨
 <a id="version_francaise"></a>
+
+# Oh my que ça a pris du temps à mettre en ligne ! 😮‍💨
 
 Version française complète à venir, promis! Désolée 🦐
 
@@ -80,7 +81,9 @@ En attendant: quelques détails, ainsi que d'autres problèmes résolus:
 
 - [Tweego](https://github.com/tmedwards/tweego) (Merci Thomas M.
   Edwards);
-- Twee 3 Language Tools
+- [Twee 3 Language
+  Tools](https://marketplace.visualstudio.com/items?itemName=cyrusfirheir.twee3-language-tools);
+- [Twine bien sûr!](https://twinery.org);
 
 
 ## Messages d'erreurs bizarres
@@ -153,6 +156,12 @@ après le premier passage alors:
 - Explorer des [APIs peu documentés](https://jvns.ca/blog/2022/03/10/how-to-use-undocumented-web-apis/) (avec considération et respect bien
   sûr!);
 - [ ] TODO : Créer un API.
+- [ ] TODO : Changer l'histoire pour avoir le choix de quelles punitions
+  la terre va infliger.
+- [ ] TODO : ajouter l'histoire du monstre microplastique Godzilla carte
+  de crédit.
+- [ ] TODO : ajouter le jeu de lançage de tomates sur des *space
+  invaders* composés de Teslas pilotées par des armées de compagnies de consultants.
 
 
 
