@@ -36,7 +36,7 @@ where and how I write what --talk about writer's block! If you're
 looking for endless ways to procrastinate, this graces the sundae with a
 cherry that will magically appear on top every time you eat it 🍒. 
 
-![I love you computer](happy-in-love-gif-by-line-friends.gif)
+![I love you computer](./media/happy-in-love-gif-by-line-friends.gif)
 
 In this case, I wanted to explore [Twine](https://twinery.org) with Visual
 Studio Code as a text editor. I found the Twee 3 language tools
