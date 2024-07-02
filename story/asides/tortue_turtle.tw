@@ -1,4 +1,4 @@
-:: Tortue
+:: Tortue {"position":"300,650"}
 
 La terre activa des transducteurs sonores pour émettre un message sous forme de dessin aux lignes sinusoides. L'objectif était clair: fournir des traces aux possibles générations futures et leur donner deux ou trois conseils.
 
@@ -14,7 +14,7 @@ Le message finissait avec une coda dont les traces formaient la représentation 
 
 <a href="https://schoukah.github.io/Tortue_scanee/" class="scan">Une tortue</a>
 
-:: Turtle 
+:: Turtle {"position":"300,475"}
 
 <blockquote>You gave it all up to machines so quickly.</blockquote>
 
@@ -34,14 +34,14 @@ Despite the warp drives and replicators acting as technological magic wands of t
 
 <iframe src="https://schoukah.github.io/Tortue_scanee/" frameborder="0"></iframe>
 
-:: racines
+:: racines {"position":"425,825"}
 
-:: memex
+:: memex {"position":"575,825"}
 
 Alors que Vannevar Bush est crédité pour avoir inventé le Memex, un instrument de la pensée hérité de la forme d'un classeur avec [[index|index]], 
 
 
-:: index
+:: index {"position":"575,600"}
 
 Nous continuons toujours à partir d'un index 👉, sommes toujours régis par les indexes (ou <em>indices</em> en anglais).
 
