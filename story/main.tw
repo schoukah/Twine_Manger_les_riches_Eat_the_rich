@@ -1,4 +1,4 @@
-:: Start {"position":"0,0"}
+:: Start {"position":"375,0"}
 
 <div class="fr">
 La terre a décidé de manger les ultra-riches.
@@ -14,7 +14,9 @@ La terre a décidé de manger les ultra-riches.
 /* again again hmmm.... */
 /* coucou */
 
-:: Mais de les manger {"position":"200,125"}
+:: Mais de les manger {"position":"125,25"}
+
+[[Yes, she had enough|She had enough]]
 
 <div class="fr">
 La planète en avait déjà par-dessus [[son manteau|Elle en avait marre]]. La fumée lui sortait des couches atmosphériques.
@@ -23,7 +25,7 @@ Assez d'entendre des puissants discuter de comment elle était déjà infestée 
 [[Comment peuvent-ils penser...|Effronterie]]
 </div>
 
-:: Effronterie {"position":"100,300"}
+:: Effronterie {"position":"0,250"}
 L'Effronterie, c'est que les ultra-riches se pensent les plus vertueux. Les plus immaculés, les miraculés géniaux qui se sont hissés tout en haut de la chaîne alimentaire terrestre par leurs propres moyens! 
 
 Telle est la peur du grand remplacement. Elle fait dire à plus d'un qui se pense puissant qu'il est à lui seul la ressource la plus précieuse.
@@ -31,7 +33,7 @@ Telle est la peur du grand remplacement. Elle fait dire à plus d'un qui se pens
 /* <<include "Mais de les manger" "div">> */
 [[Mais en fait...|Des aliens]]
 
-:: Des aliens {"position":"100,500"}
+:: Des aliens {"position":"0,425"}
 Après une grande investigation, la planète s'est rendue compte que les ultra-riches n'étaient pas que de la vermine, mais un envahisseur venu de loin.
 
 De loin dans l'infini de l'espace invsible, de loin dans tout ce que nous n'avons pas encore pour le nommer dans les termes de nos sciences les plus précises, les plus précieuses.
@@ -40,7 +42,7 @@ De loin dans l'infini de l'espace invsible, de loin dans tout ce que nous n'avon
 
 Il n'est que normal, et oh combien <em>normal</em> que les sciences à ce point n'en deviennent qu'une, la science normale. Et oh combien <em>normal</em> que cette science <em>normale</em> repousse non seulement ce qu'elle considère comme contraire à sa vérité, mais qu'elle oblitère également ce qu'elle ne pourra jamais oser concevoir. 
 
-Le domaine du jamais conçu, quant à lui, appartient à ce qui est lui est extérieur et ce à quoi elle s'évertuera d'embellir en disant, qu'après tout, elle n'en est pas si loin: les arts.)
+Le domaine du jamais conçu, quant à lui, appartient à ce qui est en marge et en dehors: les arts.)
 
 /* oh GOD what is it ? another try and another  */
 
