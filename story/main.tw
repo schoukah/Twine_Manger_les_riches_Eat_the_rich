@@ -1,4 +1,4 @@
-:: Start {"position":"500,0"}
+:: Start {"position":"375,0"}
 
 <div class="fr">
 La terre a décidé de manger les ultra-riches.
@@ -14,7 +14,9 @@ La terre a décidé de manger les ultra-riches.
 /* again again hmmm.... */
 /* coucou */
 
-:: Mais de les manger {"position":"200,150"}
+:: Mais de les manger {"position":"125,25"}
+
+[[Yes, she had enough|She had enough]]
 
 <div class="fr">
 La planète en avait déjà par-dessus [[son manteau|Elle en avait marre]]. La fumée lui sortait des couches atmosphériques.

@@ -1,4 +1,4 @@
-:: She had enough {"position":"175,375"}:: Elle en avait marre {"position":"175,225"}
+:: Elle en avait marre {"position":"350,225"}
 
 Car, voyez-vous, elle en avait marre. De bien des choses d'ailleurs et, non, pas juste des ultra-riches.
 
@@ -16,4 +16,6 @@ Ce qui, dans la grande majorité des cas, n'importune pas. Mais ce qui, dans le 
 
 [[Oui, bon, elle en avait assez.|Mais de les manger]]
 
-:: She had enough
+:: She had enough {"position":"175,225"}
+
+[[She advised against turtles|Turtle]]
