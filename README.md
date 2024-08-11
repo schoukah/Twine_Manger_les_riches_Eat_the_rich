@@ -1,5 +1,5 @@
-# [Version 👉 française](#version_francaise)
-# [English 👉 version](#english-version)
+# [Version 👉 française du Lisez-Moi](#version_francaise)
+# [English 👉 version of the Read-Me](#english-version)
 
 <a id="version_francaise"></a>
 
@@ -43,7 +43,7 @@ accents dans mes titres de passages. Merci à [Greyelf](https://twinery.org/foru
 Il y a avait aussi : `gh-pages deploy error: Action failed with "The
 process '/usr/bin/git' failed with exit code 128"` qui je pense était dû
 à ce que je devais configurer mes permissions et les secrets de
-`GH_PAGES_DEPLOY_TOKEN`.
+`GH_PAGES_DEPLOY_TOKEN`... mais normalement je ne devrais pas avoir à le faire.
 
 Oh et...peut-être que, quand un script compile un fichier dans un
 fichier `index.html` qui se trouve dans la page «&nbsp;Gh-Pages&nbsp;»,
